@@ -5,39 +5,37 @@ body {
 
 
 .container {
-  width: 100%;
-  height: 380px;
   border: solid 1px black;
+  height: 380px;
   margin: 120px auto;
- /* overflow-y: scroll;*/
   position: relative;
+  width: 100%;
+  
 }
 
-.nav ul {
-  border-bottom: 1px solid black;
-  font-size: 11px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  display: flex;
-
-}
+/*NAVIGATION*/
 
 .nav {
 background-color: white;
 }
 
+.nav ul {
+  border-bottom: 1px solid black;
+  display: flex;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .nav img {
-  max-width: 14px;
   height: auto;
+  max-width: 14px;
 }
 
 li {
   border-left: 1px solid black;
   flex: 1;
   list-style: none;
- /* display: inline-block;
-  margin-right: -2px;*/
   padding: 12px;
 }
 
@@ -46,6 +44,9 @@ li:hover {
   cursor: pointer;
   color: #f7f975;
 }
+
+/*CONTENT*/
+
 h1 {
   color: #53b5a8;
   font-size: 18px;
@@ -67,11 +68,9 @@ h2 {
   position: relative;
 }
 
-
 .content2, 
 .content3 {
   display: none;
-  /*padding: 10px;*/
 }
 
 .content2 {
@@ -99,8 +98,8 @@ img {
 }
 
 .map {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 960px ) {
@@ -108,7 +107,6 @@ img {
 .container {
   width: 300px;
   height: 380px;
-}
-
+  }
 }
 
